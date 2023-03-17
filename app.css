@@ -6,6 +6,8 @@ table {
 
 html {
     font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
 
 }
 
@@ -18,6 +20,7 @@ body {
 }
 
 .panel {
+
     border-radius: 10px;
     padding: 15px 25px;
     width: 100%;
@@ -27,18 +30,46 @@ body {
 
 }
 
-#sedan .car-type {
-    background-color: aqua;
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding: 57px;
+    border-radius: 10px 0 0 10px;
+    height: 500px;
+    /* border-radius: 10px;
+    padding: 15px 25px; */
 }
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 57px;
+    height: 500px;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 57px;
+    /* border-radius: 0 10px 10px 0; */
+    height: 500px;
+}
+
 
 @media (min-width: 900px) {
     .panel {
         flex-direction: row;
+
     }
 
-    .car-type {
-        border-bottom: none;
-        /* border-right: 1px solid #e1f1ff; */
-        padding: 25px 50px;
+    .sedan {
+        border-radius: 10px 0px 0px 10px;
+        height: 430px;
+    }
+
+    .suv {
+        height: 430px;
+    }
+
+    .luxury {
+        border-radius: 0px 10px 10px 0px;
+        height: 430px;
     }
 }
