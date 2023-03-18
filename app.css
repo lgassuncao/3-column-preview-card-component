@@ -19,6 +19,23 @@ body {
     min-height: 100vh;
 }
 
+h2 {
+    font-size: 'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: "Lexend Deca", sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    margin-bottom: 55px;
+    line-height: 1.6;
+}
+
+
 .panel {
 
     border-radius: 10px;
