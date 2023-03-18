@@ -5,9 +5,9 @@ table {
 
 
 html {
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-size: 15px;
+    font-weight: 400; */
 
 }
 
@@ -20,21 +20,54 @@ body {
 }
 
 h2 {
-    font-size: 'Big Shoulders Display', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 30px;
 }
 
 p {
-    font-family: "Lexend Deca", sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
     margin-bottom: 55px;
     line-height: 1.6;
 }
 
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    padding: 12px 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: transparent;
+    color: #FFF;
+}
+
+.button-sedan {
+    color: hsl(31, 77%, 52%);
+}
+
+.button-suv {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    padding: 12px 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.button-luxury {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    padding: 12px 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
 
 .panel {
 
