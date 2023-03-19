@@ -1,3 +1,9 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -17,6 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+
 }
 
 h2 {
@@ -33,6 +40,7 @@ p {
     font-size: 15px;
     margin-bottom: 55px;
     line-height: 1.6;
+
 }
 
 button {
@@ -42,6 +50,7 @@ button {
     padding: 12px 30px;
     border: 1px solid #fff;
     cursor: pointer;
+
 }
 
 button:hover {
@@ -67,24 +76,35 @@ button:hover {
     padding: 12px 30px;
     border: 1px solid #fff;
     cursor: pointer;
+
 }
 
 .panel {
 
     border-radius: 10px;
-    padding: 15px 25px;
-    width: 100%;
-    max-width: 960px;
-    display: flex;
+    /* padding: 15px 25px; */
+    /* width: 100%; */
+    max-width: 940px;
+    min-height: 100vh;
+    /* display: flex; */
     flex-direction: column;
+
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 940px;
+    margin: auto;
 
 }
 
 .sedan {
     background-color: hsl(31, 77%, 52%);
     padding: 57px;
-    border-radius: 10px 0 0 10px;
-    height: 500px;
+    border-radius: 10px 10px 0 0px;
+    height: 350px;
     /* border-radius: 10px;
     padding: 15px 25px; */
 }
@@ -92,14 +112,14 @@ button:hover {
 .suv {
     background-color: hsl(184, 100%, 22%);
     padding: 57px;
-    height: 500px;
+    height: 350;
 }
 
 .luxury {
     background-color: hsl(179, 100%, 13%);
     padding: 57px;
-    /* border-radius: 0 10px 10px 0; */
-    height: 500px;
+    border-radius: 0px 0px 10px 10px;
+    height: 350px;
 }
 
 
@@ -111,15 +131,23 @@ button:hover {
 
     .sedan {
         border-radius: 10px 0px 0px 10px;
-        height: 430px;
+        height: 350px;
+
+
     }
 
     .suv {
-        height: 430px;
+        height: 350px;
+
     }
 
     .luxury {
         border-radius: 0px 10px 10px 0px;
-        height: 430px;
+        height: 350px;
+
     }
+
+    /* .p {
+        margin-bottom: 50%;
+    } */
 }
