@@ -1,20 +1,6 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
-}
-
-
-html {
-    /* font-family: 'Raleway', sans-serif; */
-    /* font-size: 15px;
-    font-weight: 400; */
-
 }
 
 body {
@@ -23,7 +9,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-
 }
 
 h2 {
@@ -40,7 +25,6 @@ p {
     font-size: 15px;
     margin-bottom: 55px;
     line-height: 1.6;
-
 }
 
 button {
@@ -76,28 +60,19 @@ button:hover {
     padding: 12px 30px;
     border: 1px solid #fff;
     cursor: pointer;
-
 }
 
 .panel {
 
     border-radius: 10px;
-    /* padding: 15px 25px; */
-    /* width: 100%; */
     max-width: 940px;
     min-height: 100vh;
-    /* display: flex; */
     flex-direction: column;
-
-
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    max-width: 940px;
     margin: auto;
-
 }
 
 .sedan {
@@ -105,8 +80,6 @@ button:hover {
     padding: 57px;
     border-radius: 10px 10px 0 0px;
     height: 350px;
-    /* border-radius: 10px;
-    padding: 15px 25px; */
 }
 
 .suv {
@@ -126,28 +99,19 @@ button:hover {
 @media (min-width: 900px) {
     .panel {
         flex-direction: row;
-
     }
 
     .sedan {
         border-radius: 10px 0px 0px 10px;
         height: 350px;
-
-
     }
 
     .suv {
         height: 350px;
-
     }
 
     .luxury {
         border-radius: 0px 10px 10px 0px;
         height: 350px;
-
     }
-
-    /* .p {
-        margin-bottom: 50%;
-    } */
 }
